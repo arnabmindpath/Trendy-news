@@ -1,0 +1,9 @@
+/*Common CSS*/
+body{margin: 0;}
+
+.fluid-container{width: 100%;}
+.container{width: 1110px; margin: 0 auto;}
+.topbar{background: #000; height: 44px;}
+.topbarfl{height: 44px; display: flex; justify-content: space-between; align-items: center;}
+.topbar1,.topbar2 {color: white;}
+
