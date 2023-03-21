@@ -1,17 +1,29 @@
 /*Common CSS*/
 /*Link to demo - https://new.axilthemes.com/demo/react/papr */
 /*Roboto - font-family: 'Roboto', sans-serif;*/
+/*Poppins - font-family: 'Poppins', sans-serif;*/
 
 body{margin: 0;}
 
 .fluid-container{width: 100%;}
 .container{width: 1110px; margin: 0 auto;}
+
+/*Topbar CSS*/
+
 .topbar{background: #000; height: 44px;}
 .topbarfl{height: 44px; display: flex; justify-content: space-between; align-items: center;}
 .topbar1,.topbar2 {color: white;}
 .topbar2{width: 110px; display: flex; justify-content: space-between; font-size: 11px;}
 .topbar1 span {font-family: 'Roboto', sans-serif; font-size: 14px; font-weight: 400;}
-.topbar1 ul {display: flex;}
+.topbar1 ul {display: flex;  margin-left: -40px;}
 .topbar1 ul li {list-style-type: none; padding-right: 25px; font-family: 'Roboto', sans-serif; font-size: 14px; font-weight: 400; color: white;}
 .topbar1 ul li a {font-family: 'Roboto', sans-serif; font-size: 14px; font-weight: 400; color: white; text-decoration: none;}
+
+/*Menu CSS*/
+
+.navigation {display: flex; flex-wrap: wrap; align-items: center; margin-top: 25px;}
+.icons {margin-left: auto; display: flex; width: 70px; justify-content: space-between;}
+.menu ul {display: flex; list-style-type:none; font-family: 'Poppins', sans-serif; font-weight: 500; font-size: 15px; }
+.menu ul li {padding-right:20px;}
+.menu ul li a {text-decoration: none; color: #161617; }
 
